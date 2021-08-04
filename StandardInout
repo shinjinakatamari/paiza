@@ -1,0 +1,15 @@
+import sys
+inp = []
+for l in sys.stdin:
+    inp.append(l.splitlines())
+abc = "".join(inp[0]).split()
+
+a = int(abc[0])
+b = abc[1]
+c = abc[2]
+
+time = int(b)+int(c)
+
+trainNumber = int("".join(inp[1]))
+latestTime = 0
+latestTrain = 0
