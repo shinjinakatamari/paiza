@@ -17,3 +17,6 @@ latestTrain = 0
 #スペースを無くしてリスト化
 for i in range(moto):
     gazo.append("".join(inp[i+1]).split())
+
+#ソート
+newlist = sorted(mylist, reverse=True)
